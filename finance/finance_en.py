@@ -10,11 +10,11 @@ list = [
 
 
 def main():
-    input("Tell me your name and the smart assistant can help you with your finance situation: ")
+    input("Tell me your name and I can help you with your finance situation: ")
     print("Analyzing...")
     for i in range(len(list)):
         analize(list[i])
-    print("We don't deal with broke loser, you're on you own. Bye！👋")
+    print("We don't deal with broke loser, you're on you own. Bye! 👋")
 
 
 @animation.wait()
